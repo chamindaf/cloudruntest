@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 env:
   SERVICE_NAME: lowcode-cloudrun-test
   PROJECT_ID: flutterflow-lion-poc
-  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/flutterflow-lion-poc/cicdtest/my-build2:stage
+  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/flutterflow-lion-poc/cicdtest/my-build2
 
 on:
   push:
